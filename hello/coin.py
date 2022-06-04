@@ -5,4 +5,5 @@ from  random import choice
 
 # Create your views here.
 def flip(request):
-    return choice(['Cara', 'Coroa'])
+    return render(request, choice(['Cara', 'Coroa']))
+
